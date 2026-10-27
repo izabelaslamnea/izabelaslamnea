@@ -1,4 +1,4 @@
-# izabela-slamnea
+# izabelaslamnea
 
 Portfolio personal de proyectos de desarrollo web, programación y ciberseguridad.
 
