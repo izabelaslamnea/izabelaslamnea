@@ -1,4 +1,5 @@
 # izabela-slamnea
+
 Portfolio personal de proyectos de desarrollo web, programación y ciberseguridad.
 
 # Portfolio de proyectos
@@ -23,6 +24,24 @@ Sitio web inmobiliario enfocado en propiedades de lujo, desarrollado con WordPre
 
 **Web del proyecto:** [vanguardluxuryestates.com](https://vanguardluxuryestates.com)
 
+### 2. XAES — Cifrado y descifrado de archivos
+
+Herramienta desarrollada en Python para cifrar y descifrar datos mediante AES-128 en modo CBC. El programa permite trabajar con archivos desde la terminal y utiliza PBKDF2 con SHA-256 para derivar la clave y el vector de inicialización a partir de una contraseña.
+
+**Características principales:**
+- Cifrado y descifrado de datos desde la línea de comandos.
+- Uso de contraseñas para derivar las claves criptográficas.
+- Generación aleatoria de una sal para cada cifrado.
+- Lectura desde la entrada estándar y escritura en la salida estándar.
+
+**Tecnologías utilizadas:** Python 3, AES-128-CBC, PBKDF2, SHA-256 y PyCryptodome.
+
+**Código fuente y documentación:** [github.com/izabelaslamnea/xaes](https://github.com/izabelaslamnea/xaes)
+
+**Memoria del proyecto:** disponible en el repositorio de XAES.
+
+**Nota de seguridad:** este proyecto tiene fines educativos. AES-CBC no proporciona autenticación ni garantiza por sí solo la integridad de los datos.
+
 ## Objetivos
 
 - Desarrollar proyectos prácticos y documentar lo aprendido.
@@ -33,5 +52,3 @@ Sitio web inmobiliario enfocado en propiedades de lujo, desarrollado con WordPre
 ---
 
 Este portfolio se actualizará a medida que incorpore nuevos proyectos.
-
-
