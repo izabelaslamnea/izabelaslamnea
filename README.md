@@ -42,6 +42,25 @@ Herramienta desarrollada en Python para cifrar y descifrar datos mediante AES-12
 
 **Nota de seguridad:** este proyecto tiene fines educativos. AES-CBC no proporciona autenticación ni garantiza por sí solo la integridad de los datos.
 
+### 3. Password Analyzer — Analizador de contraseñas
+
+Herramienta desarrollada en Python para evaluar la fortaleza de contraseñas mediante criterios básicos de seguridad. Analiza su longitud, variedad de caracteres y presencia de patrones o contraseñas habituales, proporcionando una puntuación y recomendaciones de mejora.
+
+**Características principales:**
+- Evaluación de la longitud de las contraseñas.
+- Comprobación de letras mayúsculas y minúsculas.
+- Detección de números y símbolos especiales.
+- Identificación de patrones y contraseñas comunes.
+- Clasificación de la fortaleza: débil, media o fuerte.
+- Puntuación de seguridad sobre 6.
+- Introducción de contraseñas sin mostrarlas en pantalla.
+
+**Tecnologías utilizadas:** Python 3, getpass y string.
+
+**Código fuente y documentación:** [github.com/izabelaslamnea/password-analyzer](https://github.com/izabelaslamnea/password-analyzer)
+
+**Nota de seguridad:** proyecto educativo basado en reglas sencillas. Su puntuación no garantiza que una contraseña sea segura.
+
 ## Objetivos
 
 - Desarrollar proyectos prácticos y documentar lo aprendido.
