@@ -61,6 +61,26 @@ Herramienta desarrollada en Python para evaluar la fortaleza de contraseñas med
 
 **Nota de seguridad:** proyecto educativo basado en reglas sencillas. Su puntuación no garantiza que una contraseña sea segura.
 
+### 4. Security Log Analyzer — Analizador de registros
+
+Herramienta desarrollada en Python para analizar registros de acceso e identificar patrones de actividad potencialmente sospechosa, como posibles ataques de fuerza bruta y accesos exitosos precedidos de múltiples intentos fallidos.
+
+**Características principales:**
+- Análisis automático de registros de acceso.
+- Identificación de inicios de sesión exitosos y fallidos.
+- Agrupación de eventos por dirección IP.
+- Detección de posibles ataques de fuerza bruta.
+- Identificación de accesos exitosos después de varios fallos.
+- Clasificación de alertas según el nivel de riesgo.
+- Detección de registros inválidos.
+- Generación de informes CSV con fecha, hora y detalles de las alertas.
+
+**Tecnologías utilizadas:** Python 3, collections, datetime y csv.
+
+**Código fuente y documentación:** [github.com/izabelaslamnea/log-analyzer](https://github.com/izabelaslamnea/log-analyzer)
+
+**Nota de seguridad:** proyecto educativo basado en registros ficticios. Las alertas son indicadores de actividad sospechosa y no demuestran por sí solas la existencia de un ataque.
+
 ## Objetivos
 
 - Desarrollar proyectos prácticos y documentar lo aprendido.
