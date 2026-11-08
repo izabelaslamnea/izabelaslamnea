@@ -81,6 +81,27 @@ Herramienta desarrollada en Python para analizar registros de acceso e identific
 
 **Nota de seguridad:** proyecto educativo basado en registros ficticios. Las alertas son indicadores de actividad sospechosa y no demuestran por sí solas la existencia de un ataque.
 
+### 5. HONEYPOT — Sistema de detección y monitorización de amenazas
+
+Herramienta desarrollada en Python que simula un panel de autenticación administrativo mediante un servidor TCP señuelo. Permite registrar conexiones, identificar direcciones IP y detectar posibles ataques de fuerza bruta a través de un panel gráfico de monitorización en tiempo real.
+
+**Características principales:**
+- Simulación de un servicio de autenticación mediante TCP.
+- Registro de conexiones entrantes y nombres de usuario introducidos.
+- Identificación y seguimiento de direcciones IP únicas.
+- Detección de cinco o más intentos fallidos desde una misma IP en un intervalo de dos minutos.
+- Generación de alertas de seguridad.
+- Panel gráfico de monitorización en tiempo real.
+- Visualización de conexiones, IP detectadas y alertas.
+- Registro de eventos con fecha y hora.
+- Exportación de informes de actividad en formato CSV.
+
+**Tecnologías utilizadas:** Python 3, Tkinter, sockets TCP, threading, queue, csv y logging.
+
+**Código fuente y documentación:** [github.com/izabelaslamnea/honeypot](https://github.com/izabelaslamnea/honeypot)
+
+**Nota de seguridad:** proyecto educativo diseñado para entornos de laboratorio controlados. El servicio escucha exclusivamente en `127.0.0.1`, no implementa SSH real y no debe exponerse a redes públicas.
+
 ## Objetivos
 
 - Desarrollar proyectos prácticos y documentar lo aprendido.
